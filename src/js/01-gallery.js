@@ -17,7 +17,7 @@ gallery.innerHTML = markup;
 }
 createMarkup(galleryItems);
 
-let galleryList = new SimpleLightbox('.gallery a', {
+new SimpleLightbox('.gallery a', {
 	captionsData: 'alt',
     captionsDelay: 250,
     enableKeyboard: true,
