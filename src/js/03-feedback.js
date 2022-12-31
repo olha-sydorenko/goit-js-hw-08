@@ -26,7 +26,7 @@ function onFormInput (event) {
     
 formInfo[fieldName] = fieldInfo;
 localStorage.setItem('feedback-form-state', JSON.stringify(formInfo));
-console.log(formInfo);
+
 } 
 
 function onFormSubmit (event){
